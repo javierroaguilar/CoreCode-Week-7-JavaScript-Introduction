@@ -30,3 +30,21 @@ Answer
 ``` javascript
 x = 7
 ``` 
+
+## Challenge 4 - Fahrenheit 
+Write a function toFahrenheit that converts a temperature from Celsius to Fahrenheit.
+``` javascript
+function toFahrenheit(e){
+let x = (e*1.8)+32;
+return x;
+}
+``` 
+
+## Challenge 5 - Boolean
+Write a function nand that takes two Boolean values. If both values are true, the result should be false. In the other cases the return should be true.
+``` javascript
+function nand(x,e){
+let t = (x&&e);
+return !t;
+}
+```
