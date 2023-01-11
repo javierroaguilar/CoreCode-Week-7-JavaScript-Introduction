@@ -48,3 +48,40 @@ let t = (x&&e);
 return !t;
 }
 ```
+## Challenge 6 - Objects-Codewars
+Codewar link
+<https://www.codewars.com/kata/571f1eb77e8954a812000837/train/javascript>
+``` javascript
+let obj={name:"dog", legs:4,color:'white'};
+function animal(obj){
+  let x=obj;
+  return 'This ' + x.color + " "+ x.name + " has " + x.legs + " legs."
+}
+```
+
+## Challenge 7 - Return to sanity
+Codewar link
+<https://www.codewars.com/kata/514a7ac1a33775cbb500001e/train/javascript>
+``` javascript
+function mystery () {
+  let results = {sanity:'Hello'};
+  return results;
+}
+```
+
+## Challenge 8 - Debugging 
+Codewar link
+<https://www.codewars.com/kata/56d8ae9237123036d3001b54/train/javascript>
+``` javascript
+var rooms = { first: 
+             {description: 'This is the first room', items: {chair: 'The old chair looks comfortable',
+      lamp: 'This lamp looks ancient'}
+            ,
+  second: {
+    description: 'This is the second room', items: {
+      couch: 'This couch looks like it would hurt your back', table: 'On the table there is an unopened bottle of water'
+    }
+  }
+}
+}
+``` 
