@@ -85,3 +85,17 @@ var rooms = { first:
 }
 }
 ``` 
+
+## Challenge 9 - Count Strings in an object
+Codewar link
+<https://www.codewars.com/kata/565b3542af398bfb50000003/train/javascript>
+``` javascript
+function strCount(obj) {
+let t = 0;
+for (let key in obj) {
+  if (typeof obj[key] == 'string') t++;
+  if (typeof obj[key] == 'object') t+= strCount(obj[key]);
+}
+return t;
+}
+``` 
