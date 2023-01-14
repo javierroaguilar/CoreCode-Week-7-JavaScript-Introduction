@@ -111,4 +111,36 @@ Array.prototype.last = function () {
   return this[this.length-1]
 }
 ```
+## Challenge 11 - Object oriented policy 
+Codewar link
+<https://www.codewars.com/kata/54fe05c4762e2e3047000add/train/javascript>
+``` javascript
+function Ship(draft,crew) {
+ this.draft = draft;
+ this.crew = crew;
+ this.isWorthIt = function(){
+   if (((this.draft - this.crew*1.5)>20) == true) {
+   return true;} return false
+   }
+}
+```
+## Challenge 12 - String to a number
 
+Codewar link
+<https://www.codewars.com/kata/544675c6f971f7399a000e79/train/javascript>
+``` javascript
+const stringToNumber = function(str){
+  let x = parseInt(str)
+  return x;
+}
+```
+
+## Challenge 13 - Convert number to reversed array of digits
+Codewar link
+<https://www.codewars.com/kata/5583090cbe83f4fd8c000051/train/javascript>
+``` javascript
+function digitize(num) {
+  
+    return String(num).split('').reverse().map(Number);
+}
+```
