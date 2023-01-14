@@ -156,6 +156,7 @@ const falsy = [2==3, 0, null, 4 ==2,9 ==='9'];
 ## Challenge 15 - Arrays practice
 Codewar link
 <https://www.codewars.com/kata/571effabb625ed9b0600107a/train/javascript>
+``` javascript
 function getLength(arr){
 
   return arr.length;
@@ -178,3 +179,4 @@ function popElement(arr){
   arr.pop();
   return arr;
 }
+```
